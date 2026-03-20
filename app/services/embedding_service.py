@@ -6,7 +6,8 @@ def create_vectorstore(chunks, persist_directory="vectorstore"):
     # embeddings = OllamaEmbeddings(model="nomic-embed-text") for local running
     embeddings = OllamaEmbeddings(
     model="nomic-embed-text",
-    base_url="http://host.docker.internal:11434"
+    # base_url="http://host.docker.internal:11434"
+    base_url= "http://localhost:11434"
 ) # for docker
 
     vectorstore = Chroma.from_documents(

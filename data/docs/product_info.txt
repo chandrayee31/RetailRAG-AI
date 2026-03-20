@@ -1,0 +1,16 @@
+Product Information Document
+
+Product Categories:
+The store offers electronics, clothing, home appliances, and groceries.
+
+Top Selling Products:
+Smartphones, laptops, and kitchen appliances are top-selling items.
+
+Pricing Strategy:
+Competitive pricing with periodic discounts and bundle offers.
+
+Inventory Management:
+Products are restocked weekly. Out-of-stock items are updated in real time.
+
+Supplier Network:
+The store works with certified suppliers to ensure product quality and timely delivery.
