@@ -58,7 +58,7 @@ Answer with Sources
 
 <!-- Add your demo GIF here -->
 <p align="center">
-  <img src="readme_docs/reatilRAG_demo.gif" width="800"/>
+  <img src="readme_docs/RetailRAG_demo.gif" width="800"/>
 </p>
 
 ---
