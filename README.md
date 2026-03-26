@@ -1,24 +1,24 @@
-# 🚀 RetailRAG-AI
+#  RetailRAG-AI
 
 RetailRAG-AI is an end-to-end AI-powered knowledge assistant designed to answer user queries based on ingested documents using a Retrieval-Augmented Generation (RAG) pipeline. The system processes text data by splitting it into chunks, generating embeddings, and storing them in a vector database (ChromaDB) for efficient retrieval. When a user submits a query, relevant context is fetched and passed to a locally hosted LLM via Ollama to generate accurate, context-aware responses. Built with FastAPI and modular services, the project demonstrates practical integration of data pipelines, vector search, and generative AI for real-world applications such as document intelligence and enterprise search.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- 📄 Document ingestion using `.txt` files  
-- ✂️ Text chunking for efficient retrieval  
-- 🧠 Embedding generation with Ollama  
-- 🗄️ Vector storage using ChromaDB  
-- 🔎 Context retrieval pipeline  
-- 🤖 LLM-based grounded answer generation  
-- ⚡ FastAPI endpoints for Q&A and ingestion  
-- 📜 Logging for observability  
-- 🐳 Docker support for deployment  
+-  Document ingestion using `.txt` files  
+-  Text chunking for efficient retrieval  
+-  Embedding generation with Ollama  
+-  Vector storage using ChromaDB  
+-  Context retrieval pipeline  
+-  LLM-based grounded answer generation  
+-  FastAPI endpoints for Q&A and ingestion  
+-  Logging for observability  
+-  Docker support for deployment  
 
 ---
 
-## 🧭 Why Choose
+##  Why Choose
 
 - Combines **RAG + LLM + Backend APIs** in a production-ready pipeline  
 - Uses **local LLM (Ollama)** → no external dependency  
@@ -28,7 +28,7 @@ RetailRAG-AI is an end-to-end AI-powered knowledge assistant designed to answer 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
 Documents
@@ -50,11 +50,11 @@ Ollama
 Answer with Sources
 ```
 <p align="center">
-  <img src="readme_docs/retailRAg.gif" width="800"/>
+  <img src="readme_docs/RetailRAG_AI_arch.gif" width="800"/>
 </p>
 ---
 
-## 🎬 Demo
+##  Demo
 
 <!-- Add your demo GIF here -->
 <p align="center">
@@ -83,7 +83,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🧩 Simple Example
+##  Simple Example
 
 ### Ask a Question
 
@@ -108,7 +108,7 @@ POST /ask
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 retailrag-ai/
@@ -157,7 +157,7 @@ retailrag-ai/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Health Check
 ```
@@ -188,7 +188,7 @@ POST /ingest
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - Python  
 - FastAPI  
@@ -200,7 +200,7 @@ POST /ingest
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - 📄 PDF and Markdown ingestion  
 - 🏷️ Source metadata in responses  
@@ -212,7 +212,7 @@ POST /ingest
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Chandrayee Kumar**  
 Python Developer | AI/ML Engineer | Data Systems Enthusiast
