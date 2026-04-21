@@ -25,7 +25,7 @@ RetailRAG-AI is an end-to-end AI-powered knowledge assistant designed to answer 
 - Scalable modular architecture  
 - Real-world use case: knowledge assistant / document QA system  
 - Strong demonstration of **GenAI + Data Engineering skills**  
-
+ 
 ---
 
 ##  System Architecture
